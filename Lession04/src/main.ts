@@ -98,3 +98,11 @@ const numberOrString = (value: number | string): string => {
   if (isNumber(value)) return "number";
   return createError("This should never happen!");
 };
+
+const guitarist: Guitarist = {
+  name: "Jonh",
+  active: true,
+  albums: [120],
+};
+
+console.log(guitarist);
